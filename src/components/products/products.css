@@ -1,0 +1,8 @@
+.products {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% ;
+    grid-template-rows: auto auto auto;
+    column-gap: 10px;
+    row-gap: 15px;
+
+}

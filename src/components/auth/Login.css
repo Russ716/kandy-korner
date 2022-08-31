@@ -1,0 +1,68 @@
+.h1,
+h1 {
+    font-size: 2.5rem;
+    color: #FAE808;
+    background: #F34C17;
+    text-shadow: 0 1px 0px #390E0D, 1px 0 0px #390E0D, 1px 2px 1px #390E0D, 2px 1px 1px #390E0D, 2px 3px 2px #390E0D, 3px 2px 2px #390E0D, 3px 4px 2px #390E0D, 4px 3px 3px #390E0D, 4px 5px 3px #390E0D, 5px 4px 2px #390E0D, 5px 6px 2px #390E0D, 6px 5px 2px #390E0D, 6px 7px 1px #390E0D, 7px 6px 1px #390E0D, 7px 8px 0px #390E0D, 8px 7px 0px #390E0D;
+    color: #FAE808;
+    background: #F34C17;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 1rem 0;
+    margin: 0;
+    border: 0;
+}
+
+.form--login {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form--login>fieldset>input[type="email"] {
+    width: 25em;
+}
+
+.label--login {
+    width: 8rem;
+    display: inline-block;
+}
+
+.form-control {
+    display: block;
+    width: 94%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.container--login {
+    text-align: center;
+    background-color: #F34C17;
+}
+
+.form--login {
+    background-position-x: right;
+    z-index: 1;
+    min-height: 25rem;
+    min-width: 45rem;
+
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+.button--close {
+    position: relative;
+    bottom: -2rem;
+}
