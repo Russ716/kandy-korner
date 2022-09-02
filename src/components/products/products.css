@@ -1,8 +1,31 @@
+body {
+    background: #F34C17;
+}
 .products {
     display: grid;
     grid-template-columns: 15% 15% 15% 15% ;
     grid-template-rows: auto auto auto;
     column-gap: 10px;
     row-gap: 15px;
-
+    color: #FAE808;
+}
+.price {
+    color: #390E0D;
+}
+.button {
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px;
+    border-radius: 0px 40px 80px 60px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, #23AC52 0%, #25994E 50%, #1E883E 100%);
+    box-shadow: #30183A 7px 7px 7px 7px;
+    border: 2px solid #CC6813;
+    display: inline-block;
 }
